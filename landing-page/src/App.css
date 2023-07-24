@@ -1,5 +1,41 @@
+.container {
+	display: flex;
+	flex-direction: column;
+  flex: 1;
+}
+
+.headerLogo {
+	display: flex;
+	flex-direction: row;
+	background-color: aqua;
+  justify-content: space-between;
+}
+
 .headers {
+	display: flex;
+	justify-content: flex-end;
+	background-color: blue;
+}
+
+.introduction {
   display: flex;
-  justify-content: flex-end;
-  align-content: start;
+  justify-content: space-between;
+}
+
+.image {
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #8fa0a0;
+}
+
+.main-container {
+  display:flex;
+  flex-direction: column;
+  /*justify-content: ;*/
+}
+
+.black-background {
+  flex: 1 1 auto;
+  background-color: black;
 }
