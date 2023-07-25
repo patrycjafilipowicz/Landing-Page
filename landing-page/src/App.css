@@ -1,60 +1,63 @@
 .container {
 	display: flex;
 	flex-direction: column;
-  flex: 1;
+	flex: 1;
 }
 
 .headerLogo {
 	display: flex;
 	flex-direction: row;
 	background-color: #2f3b4d;
-  justify-content: space-between;
-  color: #F9FAF8;
+	justify-content: space-between;
+	color: #f9faf8;
 }
 
 .headers {
 	display: flex;
 	justify-content: flex-end;
 	background-color: #2f3b4d;
-  color: #F9FAF8;
+	color: #f9faf8;
 }
 
 .opening {
-background-color: #1F2937;
-border-spacing: 30px;
-padding-left: 30px;
-padding-right: 30px;
+	background-color: #1f2937;
+	/*padding-left: 30px;
+	padding-right: 30px;*/
 }
 .introduction {
-  display: flex;
-  justify-content: space-between;
-  background-color: #1F2937;
-  padding-left: 30px;
-  padding-right: 30px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #1f2937;
+	/*padding-left: 30px;
+	padding-right: 30px;*/
 }
 
 h1 {
-  color: #F9FAF8;
+	color: #f9faf8;
 }
 
 p {
-  color:#F9FAF8;
+	color: #f9faf8;
 }
 
 .image {
-  display: flex;
-  width: 100px;
-  height: 100px;
-  background-color: #8fa0a0;
-  margin-top: 40px;
+	display: flex;
+	width: 100px;
+	height: 100px;
+	background-color: #8fa0a0;
+	margin-top: 40px;
 }
 
 .main-container {
-  display:flex;
+	display: flex;
 }
 
 .black-background {
-  flex: 1 1 80px;
-  background-color: black;
+	flex: 1 1 80px;
+	background-color: black;
 }
 
+.container div {
+	padding-left: 15px;
+  padding-right: 15px;
+}

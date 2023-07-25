@@ -6,15 +6,13 @@ function App() {
 		<div className="main-container">
       <div className="black-background"></div>
 			<div className='container'>
-				<div className='opening'>
-					<div className='headerLogo'>
+					< div className='headerLogo'>
 						<div>Header logo</div>
 						<div className='headers'>
 							<div> link 1 </div>
 							<div> link 2 </div>
 							<div> link 3 </div>
 						</div>
-					</div>
 				</div>
 				<div className='introduction'>
 					<div></div>
