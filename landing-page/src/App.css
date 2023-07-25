@@ -7,35 +7,54 @@
 .headerLogo {
 	display: flex;
 	flex-direction: row;
-	background-color: aqua;
+	background-color: #2f3b4d;
   justify-content: space-between;
+  color: #F9FAF8;
 }
 
 .headers {
 	display: flex;
 	justify-content: flex-end;
-	background-color: blue;
+	background-color: #2f3b4d;
+  color: #F9FAF8;
 }
 
+.opening {
+background-color: #1F2937;
+border-spacing: 30px;
+padding-left: 30px;
+padding-right: 30px;
+}
 .introduction {
   display: flex;
   justify-content: space-between;
+  background-color: #1F2937;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
+  color: #F9FAF8;
+}
+
+p {
+  color:#F9FAF8;
 }
 
 .image {
   display: flex;
-  width: 400px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: #8fa0a0;
+  margin-top: 40px;
 }
 
 .main-container {
   display:flex;
-  flex-direction: column;
-  /*justify-content: ;*/
 }
 
 .black-background {
-  flex: 1 1 auto;
+  flex: 1 1 80px;
   background-color: black;
 }
+

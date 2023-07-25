@@ -22,10 +22,7 @@ function App() {
 						<h1>This app is about cats!</h1>
 						<p>
 							Cats are the most beautiful animals in the world. Lorem Ipsum is
-							simply dummy text of the printing and typesetting industry. Lorem
-							Ipsum has been the industry's standard dummy text ever since the
-							1500s, when an unknown printer took a galley of type and scrambled
-							it to make a type specimen book.
+							simply dummy text of the printing and typesetting industry.
 						</p>
 						<button>Sign up</button>
 					</div>
