@@ -19,16 +19,20 @@
 	color: #f9faf8;
 }
 
+:root {
+	--color-navy: #1f2937;
+}
+
 .opening {
-	background-color: #1f2937;
+	background-color: var(--color-navy);
 }
 .introduction {
 	display: flex;
 	justify-content: space-between;
-	background-color: #1f2937;
+	background-color: var(--color-navy);
 }
 
-h1 {
+.about {
 	color: #f9faf8;
 }
 
@@ -44,6 +48,10 @@ p {
 	margin-top: 35px;
 }
 
+.space {
+	padding-bottom: 20px;
+}
+
 .main-container {
 	display: flex;
 }
@@ -54,6 +62,48 @@ p {
 }
 
 .container > div {
-	padding-left: 15px;
-  padding-right: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+button {
+	background-color: #3882f6;
+	color: #f9faf8;
+}
+
+.random-info {
+	color: var(--color-navy);
+}
+
+.random-pics {
+	background-color: white;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.random-pic {
+	height: 50px;
+	width: 50px;
+	border: 2px solid rgb(62, 62, 160);
+	border-radius: 10px;
+	background-color: rgb(231, 231, 241);
+}
+
+.random-info {
+	display: flex;
+	justify-content: center;
+}
+
+.text-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pic-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.text {
+	text-align: center;
 }
