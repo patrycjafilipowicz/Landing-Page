@@ -55,7 +55,13 @@ function App() {
 				</div>
 				<div className='closing-sing-button'>
 					<div className='blue-space'>
-						<button>Sign up</button>
+						<div className="button-text">
+							<div>
+								<p>Call to action! It's time!</p>
+								<p>Sign to our product by clicking sign up button</p>
+							</div>
+							<button>Sign up</button>
+						</div>
 					</div>
 				</div>
 				<div className='closing'>

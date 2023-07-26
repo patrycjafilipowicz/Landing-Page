@@ -124,6 +124,7 @@ p {
 	background-color: #dbe8e8;
 	font-weight: 100px;
 	padding-top: 20px;
+	margin-top: 20px;
 }
 
 .author {
@@ -132,10 +133,15 @@ p {
 	font-weight: 600;
 	padding-bottom: 20px;
 	font-size: small;
+	margin-bottom: 10px;
 }
 
 .blue-space {
 	background-color: #3882f6;
+	height: 50px;
+	width: 600px;
+	margin-top: 40px;
+	margin-bottom: 50px;
 }
 
 .quote-text {
@@ -152,5 +158,12 @@ p {
 	height: 25px;
 	padding-top: 10px;
 	padding-bottom: 5px;
-	color:rgb(231, 231, 241)
+	color:rgb(231, 231, 241);
+	font-weight: 500;
+}
+
+.button-text {
+	display: flex;
+	font-size: 12px;
+	justify-content: flex-end;
 }
