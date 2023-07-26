@@ -19,13 +19,13 @@ function App() {
 					<div>
 						<h1 className='about'>This app is about cats!</h1>
 						<p>Cats are the most beautiful animals in the world.</p>
-						<button>Sign up</button>
+						<button className='button-1'>Sign up</button>
 					</div>
 					<div className='image'>pictrue</div>
 				</div>
 				<div className='images'>
 					<div className='random-info'>
-						<h1>Sweet cats</h1>
+						<h1 className='sweet-cats'>Sweet cats</h1>
 					</div>
 					<div className='random-pics'>
 						<div className='pic-text'>
@@ -46,8 +46,21 @@ function App() {
 						</div>
 					</div>
 				</div>
-				<div className='quote'></div>
-				<div className='closing'></div>
+				<div className='quote'>
+					<div className='quote-text'>
+						“In nine lifetimes, you’ll never know as much about your cat as your
+						cat knows about you.”
+					</div>
+					<div className='author'>- Michel de Montaigne</div>
+				</div>
+				<div className='closing-sing-button'>
+					<div className='blue-space'>
+						<button>Sign up</button>
+					</div>
+				</div>
+				<div className='closing'>
+					<div>Copyright ℗ The pat Project 2023</div>
+				</div>
 			</div>
 			<div className='black-background'></div>
 		</div>

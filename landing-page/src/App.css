@@ -10,6 +10,8 @@
 	background-color: #2f3b4d;
 	justify-content: space-between;
 	color: #f9faf8;
+	padding-top: 4px;
+	font-size: 10px;
 }
 
 .headers {
@@ -17,6 +19,7 @@
 	justify-content: flex-end;
 	background-color: #2f3b4d;
 	color: #f9faf8;
+	padding-top: 4px;
 }
 
 :root {
@@ -34,18 +37,24 @@
 
 .about {
 	color: #f9faf8;
+	font-size: 20px;
 }
 
 p {
 	color: #f9faf8;
+	font-size: 13px;
 }
 
 .image {
 	display: flex;
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 80px;
 	background-color: #8fa0a0;
-	margin-top: 35px;
+	margin-top: 10px;
+}
+
+.sweet-cats {
+	font-size: 20px;
 }
 
 .space {
@@ -66,9 +75,10 @@ p {
 	padding-right: 30px;
 }
 
-button {
+.button-1 {
 	background-color: #3882f6;
 	color: #f9faf8;
+	font-size: 12px;
 }
 
 .random-info {
@@ -102,8 +112,45 @@ button {
 .pic-text {
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 20px ;
 }
 
 .text {
 	text-align: center;
+	font-size: 12px;
+}
+
+.quote {
+	background-color: #dbe8e8;
+	font-weight: 100px;
+	padding-top: 20px;
+}
+
+.author {
+	display: flex;
+	justify-content: flex-end;
+	font-weight: 600;
+	padding-bottom: 20px;
+	font-size: small;
+}
+
+.blue-space {
+	background-color: #3882f6;
+}
+
+.quote-text {
+	font-size: 13px;
+	font-style: italic;
+	color:var(--color-navy);
+}
+
+.closing {
+	display: flex;
+	justify-content: center;
+	font-size: 10px;
+	background-color: var(--color-navy);
+	height: 25px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color:rgb(231, 231, 241)
 }
