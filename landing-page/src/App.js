@@ -7,21 +7,22 @@ function App() {
 			<div className='black-background'></div>
 			<div className='container'>
 				<div className='headerLogo'>
-					<div>Header logo</div>
+					<div className="baby-cat">BabyCat</div>
 					<div className='headers'>
-						<div> link 1 </div>
-						<div> link 2 </div>
-						<div> link 3 </div>
+						<div>Link Link Link</div>
+						{/* <div>link 2</div>
+						<div>link 3</div> */}
 					</div>
 				</div>
 				<div className='introduction'>
-					<div></div>
+				<div className="space-intro"></div>
 					<div>
 						<h1 className='about'>This app is about cats!</h1>
 						<p>Cats are the most beautiful animals in the world.</p>
 						<button className='button-1'>Sign up</button>
 					</div>
 					<div className='image'>pictrue</div>
+					<div className="space-intro"></div>
 				</div>
 				<div className='images'>
 					<div className='random-info'>
@@ -55,10 +56,10 @@ function App() {
 				</div>
 				<div className='closing-sing-button'>
 					<div className='blue-space'>
-						<div className="button-text">
+						<div className='button-text'>
 							<div>
-								<p>Call to action! It's time!</p>
-								<p>Sign to our product by clicking sign up button</p>
+								<p className="sign-up-text">Call to action! It's time!<br/>
+								Sign to our product by clicking sign up button</p>
 							</div>
 							<button>Sign up</button>
 						</div>
