@@ -48,9 +48,11 @@ function App() {
 					</div>
 				</div>
 				<div className='quote'>
+				<div className='author'></div>
 					<div className='quote-text'>
-						“In nine lifetimes, you’ll never know as much about your cat as your
-						cat knows about you.”
+						<p className="quote-1">“In nine lifetimes,<br/></p>
+						<p className="quote-2">you’ll never know as much about your cat<br/></p>
+						<p className="quote-3">as your cat knows about you.”</p>
 					</div>
 					<div className='author'>- Michel de Montaigne</div>
 				</div>

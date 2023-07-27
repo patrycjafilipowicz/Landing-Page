@@ -19,6 +19,7 @@
 	letter-spacing: -2px;
 	font-weight: 600;
 	font-style: italic;
+	padding-bottom: 5px;
 }
 
 .headers {
@@ -95,6 +96,8 @@ p {
 	background-color: #3882f6;
 	color: #f9faf8;
 	font-size: 12px;
+	border-radius: 3px;
+	border: none;
 }
 
 .random-info {
@@ -139,8 +142,8 @@ p {
 .quote {
 	background-color: #dbe8e8;
 	font-weight: 100px;
-	padding-top: 20px;
-	margin-top: 20px;
+	padding-top: 15px;
+	margin-top: 15px;
 }
 
 .author {
@@ -161,11 +164,27 @@ p {
 	border-radius: 5px;
 }
 
-.quote-text {
-	font-size: 16px;
+.quote-text > p {
+	display: flex;
+	font-size: 18px;
 	font-style: italic;
 	color:var(--color-navy);
+	transform: skewX(-17deg);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	line-height: 5px;
+	
+}
+
+.quote-1 {
 	text-indent: 40px;
+	font-style: italic;
+}
+.quote-2 {
+	text-indent: 20px;
+}
+
+.quote-3 {
+	text-indent: 0px;
 }
 
 .closing {
