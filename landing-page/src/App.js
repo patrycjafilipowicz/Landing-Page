@@ -57,16 +57,17 @@ function App() {
 				<div className='closing-sing-button'>
 					<div className='blue-space'>
 						<div className='button-text'>
-							<div>
-								<p className="sign-up-text">Call to action! It's time!<br/>
-								Sign to our product by clicking sign up button</p>
+							<div className="call-to-action">
+								<p className="sign-up-text">Call to action! It's time!<br/></p>
+								<p className="sign-up-text-2">Sign to our product by clicking sign up button</p>
 							</div>
-							<button>Sign up</button>
+							<div className="">
+							<button className="button-2">Sign up</button></div>
 						</div>
 					</div>
 				</div>
 				<div className='closing'>
-					<div>Copyright ℗ The pat Project 2023</div>
+					<div>Copyright℗ ThepatProject 2023</div>
 				</div>
 			</div>
 			<div className='black-background'></div>
