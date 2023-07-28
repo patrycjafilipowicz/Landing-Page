@@ -25,7 +25,7 @@ function App() {
 									<button className='button-1'>Sign up</button>
 								</div>
 							</div>
-							<div className='image'>pictrue</div>
+							<div className='image'></div>
 						</div>
 						<div className='space-intro'></div>
 					</div>
@@ -87,7 +87,7 @@ function App() {
 						</div>
 					</div>
 				</div>
-				
+
 				<div className='closing'>
 					<div>Copyright℗ ThepatProject 2023</div>
 				</div>
