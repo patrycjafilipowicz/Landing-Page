@@ -70,6 +70,11 @@ p {
 	margin-top: 10px;
 }
 
+.about-image {
+	display: flex; 
+	justify-content: space-between; 
+}
+
 .sweet-cats {
 	font-size: 20px;
 }
@@ -90,6 +95,11 @@ p {
 .container > div {
 	padding-left: 30px;
 	padding-right: 30px;
+}
+
+.button-1-div {
+	display: flex;
+	justify-content: center;
 }
 
 .button-1 {
@@ -159,7 +169,7 @@ p {
 	background-color: #3882f6;
 	height: 50px;
 	width: 600px;
-	margin-top: 40px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 	border-radius: 5px;
 }
@@ -201,8 +211,7 @@ p {
 
 .button-text {
 	display: flex;
-	font-size: 12px;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .button-2 {
@@ -216,13 +225,26 @@ p {
 }
 
 .sign-up-text {
-	line-height: 0.2;
+	line-height: 0.1;
 	text-indent: 120px;
 	font-size: 14px;
 	font-weight: 600;
+	margin-top: 15px;
 }
 
 .sign-up-text-2 {
 	text-indent: 120px;
 	font-size: 12px;
+	margin-bottom: 5px;
 }
+
+.button-2-div {
+	display: flex;
+	align-self: center;
+}
+
+/* .call-to-action > p {
+	display: flex;
+	justify-content: left;
+	
+} */
